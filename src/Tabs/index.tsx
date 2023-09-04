@@ -3,7 +3,6 @@ import Ionicons from 'react-native-vector-icons/Ionicons'
 import Principal from "../Principal";
 import Explorar from "./Explorar";
 import Perfil from "./Perfil";
-import { background } from "native-base/lib/typescript/theme/styled-system";
 import React from "react";
 import Conversas from './Conversas';
 
