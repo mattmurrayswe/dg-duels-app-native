@@ -29,7 +29,7 @@ export default function Login({navigation}) {
           <EntradaTexto placeholder='digitalgarage@example.com'></EntradaTexto>
           <EntradaTexto placeholder='Insira sua senha'></EntradaTexto>    
         </Box>
-        <Botao>Entrar</Botao>
+        <Botao onPress={() => navigation.navigate('Perfil')}>Entrar</Botao>
         <Link onPress={() => navigation.navigate('RecuperarSenha')}><Text fontSize={13} fontStyle={'Comfortaa'} marginLeft={113} mt={2} >Esqueceu a senha? Clique aqui!</Text></Link>
       </VStack>
     );

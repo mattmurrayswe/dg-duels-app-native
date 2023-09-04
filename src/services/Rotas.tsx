@@ -2,11 +2,11 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import Login from './Login';
-import Cadastro from './Cadastro';
-import RecuperarSenha from './RecuperarSenha';
-import Principal from './Principal';
-import Perfil from './Perfil';
+import Login from '../Login';
+import Cadastro from '../Cadastro';
+import RecuperarSenha from '../RecuperarSenha';
+import Principal from '../Principal';
+import Perfil from '../Perfil';
 
 const Tab = createNativeStackNavigator();
 
@@ -23,3 +23,4 @@ export default function Rotas() {
         </NavigationContainer>
     )
 }
+
