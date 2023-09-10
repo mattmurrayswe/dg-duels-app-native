@@ -9,7 +9,7 @@ interface TituloProps extends ITextProps{
 export function Titulo({ children, ...rest }: TituloProps){
     return(
         <Text
-            fontSize={"2x1"}
+            fontSize={"2x1" || "sm"}
             fontWeight={"bold"}
             color= {"000000"}
             textAlign={"left"}

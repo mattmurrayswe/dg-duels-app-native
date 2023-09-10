@@ -1,6 +1,6 @@
 import { VStack, Image, Text, Box, FormControl, Input, Button, Link, Center } from 'native-base';
 import React from 'react';
-import {TEMAS} from './style/temas';
+import { TEMAS } from "./style/TEMAS.1";
 import Principal from './Principal';
 import { EntradaTexto } from './componentes/entradatexto';
 import { Botao } from './componentes/botao';

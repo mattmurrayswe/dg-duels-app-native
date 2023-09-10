@@ -44,7 +44,7 @@ export const TEMAS = extendTheme({
     colorFont: {
         white: '#fff',
         black: '#000',
-    },
+    }
     
 })
 

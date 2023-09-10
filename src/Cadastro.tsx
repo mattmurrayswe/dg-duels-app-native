@@ -1,6 +1,5 @@
 import { VStack, Text, Box } from 'native-base';
 import React from 'react';
-import {TEMAS} from './style/temas';
 import { EntradaTexto } from './componentes/entradatexto';
 import { Botao } from './componentes/botao';
 import { secoes } from './utils/CadastroEntradaTexto';
